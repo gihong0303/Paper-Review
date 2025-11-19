@@ -7,56 +7,56 @@
 ### 1. [Foundation & Scaling Laws](./1_Foundation_Scaling/)
 Transformer의 탄생부터 스케일링 법칙까지
 
-| 날짜 | 논문 | 핵심 내용 |
-|------|------|-----------|
-| 2025-06-13 | Attention Is All You Need | Transformer 아키텍처 |
-| 2025-06-16 | GPT-3 | In-context Learning |
-| 2025-06-19 | Scaling Laws | 스케일링 법칙 |
-| 2025-06-22 | Chinchilla | Compute-Optimal 학습 |
-| 2025-06-25 | LLaMA 2 | 오픈소스 표준 |
-| 2025-06-28 | LLaMA 3 | 최신 학습 레시피 |
+| 논문 | 핵심 내용 |
+|------|-----------|
+| Attention Is All You Need | Transformer 아키텍처 |
+| GPT-3 | In-context Learning |
+| Scaling Laws | 스케일링 법칙 |
+| Chinchilla | Compute-Optimal 학습 |
+| LLaMA 2 | 오픈소스 표준 |
+| LLaMA 3 | 최신 학습 레시피 |
 
 ### 2. [Positional Embeddings & Attention Variants](./2_Positional_Attention/)
 위치 인코딩과 어텐션 변형
 
-| 날짜 | 논문 | 핵심 내용 |
-|------|------|-----------|
-| 2025-07-01 | RoPE (RoFormer) | Rotary Position Embedding |
-| 2025-07-04 | ALiBi | Linear Bias 위치 인코딩 |
-| 2025-07-07 | GQA | Grouped-Query Attention |
-| 2025-07-10 | Sliding Window (Mistral) | 윈도우 어텐션 |
-| 2025-07-13 | Ring Attention | 분산 무한 컨텍스트 |
+| 논문 | 핵심 내용 |
+|------|-----------|
+| RoPE (RoFormer) | Rotary Position Embedding |
+| ALiBi | Linear Bias 위치 인코딩 |
+| GQA | Grouped-Query Attention |
+| Sliding Window (Mistral) | 윈도우 어텐션 |
+| Ring Attention | 분산 무한 컨텍스트 |
 
 ### 3. [Mixture of Experts (MoE)](./3_MoE/)
 Sparse 아키텍처의 발전
 
-| 날짜 | 논문 | 핵심 내용 |
-|------|------|-----------|
-| 2025-07-16 | Switch Transformer | MoE 기초 |
-| 2025-07-19 | Mixtral | Sparse MoE 대중화 |
-| 2025-07-22 | DeepSeek-V2 | MLA + MoE |
-| 2025-07-25 | DeepSeek-V3 | 최신 SOTA MoE |
+| 논문 | 핵심 내용 |
+|------|-----------|
+| Switch Transformer | MoE 기초 |
+| Mixtral | Sparse MoE 대중화 |
+| DeepSeek-V2 | MLA + MoE |
+| DeepSeek-V3 | 최신 SOTA MoE |
 
 ### 4. [Post-Transformer Architectures](./4_Post_Transformer/)
 Transformer를 넘어서
 
-| 날짜 | 논문 | 핵심 내용 |
-|------|------|-----------|
-| 2025-07-28 | RWKV | RNN + Transformer |
-| 2025-07-31 | Mamba | Selective SSM |
-| 2025-08-03 | Jamba | Mamba + Transformer 하이브리드 |
-| 2025-08-06 | Mamba-2 | SSM 이론 강화 |
-| 2025-08-09 | Hyena | Convolution 기반 |
+| 논문 | 핵심 내용 |
+|------|-----------|
+| RWKV | RNN + Transformer |
+| Mamba | Selective SSM |
+| Jamba | Mamba + Transformer 하이브리드 |
+| Mamba-2 | SSM 이론 강화 |
+| Hyena | Convolution 기반 |
 
 ### 5. [Reasoning & Chain of Thought](./5_Reasoning_CoT/)
 LLM의 추론 능력
 
-| 날짜 | 논문 | 핵심 내용 |
-|------|------|-----------|
-| 2025-08-12 | Chain-of-Thought | CoT 프롬프팅 |
-| 2025-08-15 | Self-Consistency | 다수결 추론 |
-| 2025-08-18 | Tree of Thoughts | 트리 탐색 추론 |
-| 2025-08-21 | Quiet-STaR | 내부 추론 학습 |
+| 논문 | 핵심 내용 |
+|------|-----------|
+| Chain-of-Thought | CoT 프롬프팅 |
+| Self-Consistency | 다수결 추론 |
+| Tree of Thoughts | 트리 탐색 추론 |
+| Quiet-STaR | 내부 추론 학습 |
 
 ---
 
