@@ -87,28 +87,5 @@ LLM의 추론 능력
    └── CoT → ToT
 ```
 
-### 핵심 수식 미리보기
-
-**Scaled Dot-Product Attention**:
-$$\text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V$$
-
-**Chinchilla Optimal**:
-$$N_{opt} \approx 20 \times D$$
-
-**RoPE**:
-$$f(x, m) = e^{im\theta}x$$
-
-**Mamba Selection**:
-$$y = \text{SSM}(A, B, C)(x)$$
-
----
-
-## 참고
-
-- 총 24개 논문
-- 2025년 6월 ~ 8월 작성
-- 각 리뷰는 수식, 코드, 직관적 설명 포함
-
----
 
 *이전: [Part 3 - Domain Adaptation](../Part3_Domain_Adaptation/)*
